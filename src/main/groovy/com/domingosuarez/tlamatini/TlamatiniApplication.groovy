@@ -1,12 +1,13 @@
 package com.domingosuarez.tlamatini
 
-import org.springframework.boot.SpringApplication
+import static org.springframework.boot.SpringApplication.run
+
 import org.springframework.boot.autoconfigure.SpringBootApplication
 
 @SpringBootApplication
 class TlamatiniApplication {
 
   static void main(String[] args) {
-    SpringApplication.run TlamatiniApplication, args
+    run TlamatiniApplication, args
   }
 }
