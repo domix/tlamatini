@@ -41,9 +41,12 @@ dependencies {
   compile("org.springframework.boot:spring-boot-starter-social-facebook")
   compile("org.springframework.boot:spring-boot-starter-social-linkedin")
   compile("org.springframework.boot:spring-boot-starter-social-twitter")
-  compile("org.springframework.boot:spring-boot-starter-thymeleaf")*/
-  compile("org.springframework.boot:spring-boot-starter-web")
+  compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+  compile("org.springframework.boot:spring-boot-starter-web")*/
   compile "org.codehaus.groovy:groovy-all:${groovyVersion}"
+
+
+  compile('com.domingosuarez.boot:spring-boot-starter-jade4j:0.3.0')
 
   runtime("org.postgresql:postgresql:9.4-1201-jdbc41")
 
